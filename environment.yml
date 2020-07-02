@@ -1,0 +1,10 @@
+name: studio-r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - rstudio
+  - r-base=3.6.1
+  - r-foreign
+
