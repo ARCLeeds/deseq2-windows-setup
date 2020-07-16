@@ -1,4 +1,5 @@
-install.packages("BiocManager")
+
+install.packages("BiocManager", repos="https://cran.ma.imperial.ac.uk/")
 
 BiocManager::install("DESeq2")
 
